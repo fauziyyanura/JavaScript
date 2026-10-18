@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Card Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Student Card Generator</h1>
+    <p>Create your own digital student card!</p>
+
+    <form id="studentForm">
+    <label for="studentName">Full Name</label>
+    <input type="text" id="studentName" placeholder="Enter your full name">
+
+    <label for="schoolName">School Name</label>
+    <input type="text" id="schoolName" placeholder="Enter your school">
+
+    <label for="course">Course of Study</label>
+    <input type="text" id="course" placeholder="Enter your course">
+
+    <button type="submit">Generate My Card</button>
+    <p id="formMessage" class="form-message" aria-live="polite"></p>
+    </form>
+
+    <div id="cardResult" class="card-result" hidden>
+    <h2>Your Student Card</h2>
+
+    <d iv class="student-card">
+    <h3 id="cardStudentName">Student Name</h3>
+    <p id="cardSchoolName">School Name</p>
+    <p id="cardCourse">Course of Study</p>
+    <p id="cardNumber">Card No: SC-2026</p>
+    <span class="card-label">STUDENT</span>
+    </d>
+</div>
+</body>
+</html>
